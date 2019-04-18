@@ -1,0 +1,22 @@
+.homemadedynamite { width: 400px; padding: 25px; background-color: #f1e4d9; margin: auto; border: 1px solid #f0f0f0; }
+.ourrules { width: 400px; height: 450px; background-color: #f1e4d9; position: relative; overflow: hidden; }
+.ourrules .ourdreams { width: 158px; padding: 10px; height: 428px; border: 1px solid #f0f0f0; position: absolute; top: 0; left: 0; }
+.ourrules .wereblind-t { position: absolute; top: 0; right: 0; width: 178px; height: 118px; padding: 10px; border: 1px solid #f0f0f0; }
+.ourrules .wereblind-m { position: absolute; top: 156px; right: 0; width: 178px; height: 118px; padding: 10px; border: 1px solid #f0f0f0; }
+.ourrules .wereblind-b { position: absolute; bottom: 0; right: 0; width: 178px; height: 118px; padding: 10px; border: 1px solid #f0f0f0; }
+.ourrules .ourfriends-l { width: 200px; height: 450px; background-position: left; position: absolute; top: 0; left: 0; transition-duration: .8s; }
+.ourrules .ourfriends-r { width: 200px; height: 450px; background-position: right; position: absolute; bottom: 0; right: 0; transition-duration: .8s;}
+.ourrules:hover .ourfriends-l { top: -450px; }
+.ourrules:hover .ourfriends-r { bottom: -450px; }
+.ourdream-s { width: 153px; height: 428px; padding-right: 5px; overflow: auto; text-align: justify; line-height: 100%; font-size: 10px; font-family: 'Muli', sans-serif; color: #555; }
+.wereblind-s { width: 173px; height: 118px; padding-right: 5px; overflow: auto; text-align: justify; line-height: 100%; font-size: 10px; font-family: 'Muli', sans-serif; color: #555;}
+.ourdream-s::-webkit-scrollbar, .wereblind-s::-webkit-scrollbar { width: 3px; height: 3px;  text-align: justify; line-height: 100%; font-size: 10px; font-family: 'Muli', sans-serif; color: #555;}
+.ourdream-s::-webkit-scrollbar-track, .wereblind-s::-webkit-scrollbar-track { background-color: transparent; padding: 0; border: 0;}
+.yourfriendto { float: left; width: 50px; height: 50px; padding: 5px; border: 1px solid #fff; border-top: 1px solid transparent; border-bottom: 1px solid transparent; transform: rotate(60deg); border-radius: 100%; }
+.yourfriendto-i { transform: rotate(-80deg); border-radius: 100%; width: 50px; height: 50px; background-size: cover; background-position: center; }
+.ourdrinks crow { display: block; font-size: 8px; text-transform: uppercase; line-height: 100%; text-align: right; letter-spacing: 0; font-weight: 900; }
+.ourdream-s ans, .wereblind-s ans { display: block; padding: 5px; margin: 5px; background-color: #f1e4d9; font-size: 10px; font-family: 'Muli', sans-serif; text-align: justify; line-height: 100%; }
+.ourdream-s::-webkit-scrollbar-thumb, .wereblind-s::-webkit-scrollbar-thumb { background-color: transparent; padding: 0; }
+.ourdrinks { width: 360px; min-height: 62px; padding: 20px; letter-spacing: -2px; color: #f1e4d9; font-size: 40px; text-transform: lowercase; font-family: 'Muli', sans-serif; font-weight: 200; line-height: 120%; text-align: right; margin-bottom: 25px; vertical-align: middle; }
+.ourdream-s readytorun, .wereblind-s readytorun { display: block; margin-bottom: 7px; color: #f1e4d9; font-size: 7px; padding: 5px; font-family: 'Muli', sans-serif; font-weight: 900; letter-spacing: 1px; line-height: 100%;  text-transform: uppercase; }
+.ourdream-s a, .wereblind-s a, .ourdream-s ems, .wereblind-s ems { font-size: 8px; text-transform: uppercase; font-weight: 900; line-height: 150%; }
